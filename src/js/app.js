@@ -1,4 +1,4 @@
-import Matter, { Constraint } from 'matter-js';
+import Matter from 'matter-js';
 import Paper from 'paper';
 import bgImg from '../../cover-01.jpg';
 import 'pathseg';
