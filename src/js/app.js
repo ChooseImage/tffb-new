@@ -21,6 +21,8 @@ var Engine = Matter.Engine,
     Vector = Matter.Vector;
     Vertices = Matter.Vertices;
 
+    console.log(Runner);
+
 
     class Sketch {
         constructor(){
