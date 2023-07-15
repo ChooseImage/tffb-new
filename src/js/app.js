@@ -7,19 +7,19 @@ const path = "m29.75,304.69c-.59,0-1.21-.04-1.84-.13-2.08-.28-4.13-.59-6.26-1.29
 const SVG_PATH_SELECTOR = '#two-ppl';
 const p1 = path.split(',');
 
-var Engine = Matter.Engine,
-    Render = Matter.Render,
-    Body = Matter.Body;
-    Runner = Matter.Runner,
-    World = Matter.World,
-    MouseConstraint = Matter.MouseConstraint,
-    Mouse = Matter.Mouse,
-    Composite = Matter.Composite,
-    Bodies = Matter.Bodies;
-    Constraint = Matter.Constraint;
-    Svg = Matter.Svg;
-    Vector = Matter.Vector;
-    Vertices = Matter.Vertices;
+let Engine = Matter.Engine;
+let Render = Matter.Render;
+let Body = Matter.Body;
+let Runner = Matter.Runner;
+let World = Matter.World;
+let MouseConstraint = Matter.MouseConstraint;
+let Mouse = Matter.Mouse;
+let Composite = Matter.Composite;
+let Bodies = Matter.Bodies;
+let Constraint = Matter.Constraint;
+let Svg = Matter.Svg;
+let Vector = Matter.Vector;
+let Vertices = Matter.Vertices;
 
     console.log(Runner);
 
