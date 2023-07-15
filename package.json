@@ -1,0 +1,14 @@
+{
+    "name": "TFFB",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "parcel": "latest"
+    },
+    "dependencies": {
+        "pathseg": "^1.2.1"
+    }
+}
