@@ -30,7 +30,7 @@ let Vertices = Matter.Vertices;
                 x:300,y:300
             }
             this.initPaper();
-            this.createSvgBodies();
+            //this.createSvgBodies();
             this.physics();
             this.addObjects();
             this.mouseEvents();
